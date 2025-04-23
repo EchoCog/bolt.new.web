@@ -7,7 +7,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "deploy": "npm run build && wrangler pages deploy",
+    "deploy": "node ./deploy.js",
     "build": "remix vite:build",
     "dev": "remix vite:dev",
     "test": "vitest --run",
