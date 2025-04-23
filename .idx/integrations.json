@@ -1,11 +1,6 @@
 {
   "firebase_hosting": {},
-  "cloud_run_deploy": {
-    "config":{
-        "projectId":"",
-        "region":"us-central1"
-    }
-  },
+  "cloud_run_deploy": {},
   "gemini_api": {},
   "secrets_manager": {}
 }

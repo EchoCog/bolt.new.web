@@ -1,0 +1,125 @@
+.
+├── apptree.txt
+├── components
+│   ├── chat
+│   │   ├── Artifact.tsx
+│   │   ├── AssistantMessage.tsx
+│   │   ├── BaseChat.module.scss
+│   │   ├── BaseChat.tsx
+│   │   ├── Chat.client.tsx
+│   │   ├── CodeBlock.module.scss
+│   │   ├── CodeBlock.tsx
+│   │   ├── Markdown.module.scss
+│   │   ├── Markdown.tsx
+│   │   ├── Messages.client.tsx
+│   │   ├── SendButton.client.tsx
+│   │   └── UserMessage.tsx
+│   ├── editor
+│   │   └── codemirror
+│   │       ├── BinaryContent.tsx
+│   │       ├── cm-theme.ts
+│   │       ├── CodeMirrorEditor.tsx
+│   │       ├── indent.ts
+│   │       └── languages.ts
+│   ├── header
+│   │   ├── HeaderActionButtons.client.tsx
+│   │   └── Header.tsx
+│   ├── sidebar
+│   │   ├── date-binning.ts
+│   │   ├── HistoryItem.tsx
+│   │   └── Menu.client.tsx
+│   ├── ui
+│   │   ├── Dialog.tsx
+│   │   ├── IconButton.tsx
+│   │   ├── LoadingDots.tsx
+│   │   ├── PanelHeaderButton.tsx
+│   │   ├── PanelHeader.tsx
+│   │   ├── Slider.tsx
+│   │   └── ThemeSwitch.tsx
+│   └── workbench
+│       ├── EditorPanel.tsx
+│       ├── FileBreadcrumb.tsx
+│       ├── FileTree.tsx
+│       ├── PortDropdown.tsx
+│       ├── Preview.tsx
+│       ├── terminal
+│       │   ├── Terminal.tsx
+│       │   └── theme.ts
+│       └── Workbench.client.tsx
+├── entry.client.tsx
+├── entry.server.tsx
+├── lib
+****.server/llm/**** -> llmtreee.txt 
+│   ├── crypto.ts
+│   ├── fetch.ts
+│   ├── hooks
+│   │   ├── index.ts
+│   │   ├── useMessageParser.ts
+│   │   ├── usePromptEnhancer.ts
+│   │   ├── useShortcuts.ts
+│   │   └── useSnapScroll.ts
+│   ├── persistence
+│   │   ├── ChatDescription.client.tsx
+│   │   ├── db.ts
+│   │   ├── index.ts
+│   │   └── useChatHistory.ts
+│   ├── runtime
+│   │   ├── action-runner.ts
+│   │   ├── message-parser.spec.ts
+│   │   ├── message-parser.ts
+│   │   └── __snapshots__
+│   │       └── message-parser.spec.ts.snap
+│   ├── stores
+│   │   ├── chat.ts
+│   │   ├── editor.ts
+│   │   ├── files.ts
+│   │   ├── previews.ts
+│   │   ├── settings.ts
+│   │   ├── terminal.ts
+│   │   ├── theme.ts
+│   │   └── workbench.ts
+│   └── webcontainer
+│       ├── auth.client.ts
+│       └── index.ts
+├── root.tsx
+├── routes
+│   ├── api.chat.ts
+│   ├── api.enhancer.ts
+│   ├── chat.$id.tsx
+│   └── _index.tsx
+├── styles
+│   ├── animations.scss
+│   ├── components
+│   │   ├── code.scss
+│   │   ├── editor.scss
+│   │   ├── resize-handle.scss
+│   │   ├── terminal.scss
+│   │   └── toast.scss
+│   ├── index.scss
+│   ├── variables.scss
+│   └── z-index.scss
+├── types
+│   ├── actions.ts
+│   ├── artifact.ts
+│   ├── terminal.ts
+│   └── theme.ts
+└── utils
+    ├── buffer.ts
+    ├── classNames.ts
+    ├── constants.ts
+    ├── debounce.ts
+    ├── diff.ts
+    ├── easings.ts
+    ├── gemini.server.ts
+    ├── logger.ts
+    ├── markdown.ts
+    ├── mobile.ts
+    ├── promises.ts
+    ├── react.ts
+    ├── shell.ts
+    ├── stripIndent.ts
+    ├── terminal.ts
+    └── unreachable.ts
+
+22 directories, 99 files
+tree is not installed, but available in the following packages, pick one to run it, Ctrl+C to cancel.
