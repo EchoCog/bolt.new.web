@@ -109,4 +109,14 @@ pnpm run deploy
 
 Make sure you have the necessary permissions and Wrangler is correctly configured for your Cloudflare account.
 
-To deploy to Google Cloud, use the following command: `pnpm run deploy --target=gcloud`.
+### Deploy to Google Cloud
+
+To deploy to Google Cloud, you need to configure your project ID and region.
+
+1.  **Configure Project ID and Region:**
+
+    Open the `.idx/integrations.json` file and add your Google Cloud project ID and preferred region under the `cloud_run_deploy` configuration. For example:
+
+    
+
+
